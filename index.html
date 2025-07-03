@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlantPal welcome</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="C:\Users\user\Desktop\Plant pal\plant.png">
+    <link rel="icon" type="image/png" href="plant.png">
 </head>
 <body>
     <div class="container">
@@ -54,7 +54,7 @@
 
             localStorage.setItem("username", name);
             localStorage.setItem("progress", JSON.stringify({ answered: [], current: 1, lang, level }));
-            window.location.href = `C:/Users/user/Desktop/Plant pal/quizzes/${lang}/${level}/${lang}_${level}_q1.html`;
+            window.location.href = `quizzes/${lang}/${level}/${lang}_${level}_q1.html`;
         }
     </script>
 
